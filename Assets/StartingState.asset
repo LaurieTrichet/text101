@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83bba2905b76bd5488347255bc85202d, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You wake up, it has been a very warm night and you struggled to sleep.
+    You look outside the window, you see the grass is now brown, and your plants are
+    heat stressed as well.\r\n\r\n1) You watch the news\r\n2) You water your plants
+    in the backyard."
+  nextStates:
+  - {fileID: 11400000, guid: 6aa562e1c3a78ef49b42b93d9dc292f6, type: 2}
+  - {fileID: 11400000, guid: 6a7b5a3be19381e4fbff8d1ab2dbbcbb, type: 2}
